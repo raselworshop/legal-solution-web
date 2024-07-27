@@ -58,7 +58,7 @@
     font-size: 18px;
     font-weight: 400;
   }
-  .button-div .btn{
+  .btn{
     border-radius: 8px;
     background: rgb(182, 140, 90);
     width: 220px;
@@ -69,4 +69,24 @@
     border: none;
     border-radius: 8px;
     padding: 12px;
+  }
+  .main-sect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width: 1170px;
+    height: 548px;
+    border-radius: 8px;
+    background-image: url('../images/banner.png'),
+     linear-gradient(
+        0.00deg, rgb(17, 17, 17),
+     rgba(17, 17, 17, 0) 100%);
   }
