@@ -9,12 +9,12 @@
     padding: 0;
   }
   /* shared styles here */
-  p{
-    color: rgb(243, 243, 243);
+  .main-sect, p{
+    color: rgb(226, 225, 225);
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
   }
@@ -70,6 +70,7 @@
     border-radius: 8px;
     padding: 12px;
   }
+  /* main section styles start here */
   .main-sect{
     display: flex;
     justify-content: center;
@@ -84,9 +85,26 @@
     border: 2px solid red;
     width: 1170px;
     height: 548px;
+    opacity: 0.99;
     border-radius: 8px;
     background-image: url('../images/banner.png'),
      linear-gradient(
-        0.00deg, rgb(17, 17, 17),
-     rgba(17, 17, 17, 0) 100%);
+        0deg,
+      rgb(0, 0, 0),
+      rgba(17, 15, 15, 0.957) 100%);
+  }
+  .main-sect .title-with-desc{
+    background-color: linear-gradient(
+        0deg,
+      rgb(0, 0, 0),
+      rgba(17, 15, 15, 0.957) 100%);
+  }
+  .main-sect .title-with-desc h1{
+    color: rgb(255, 255, 255);
+    font-family: EB Garamond;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 85px;
+    letter-spacing: 0%;
+    text-align: center;
   }
