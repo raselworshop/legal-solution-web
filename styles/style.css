@@ -9,7 +9,7 @@
     padding: 0;
   }
   /* shared styles here */
-  .main-sect, p{
+  .main-sect p{
     color: rgb(226, 225, 225);
     font-family: Poppins;
     font-size: 16px;
@@ -74,6 +74,7 @@
   /* main section styles start here */
   .main-sect{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -125,6 +126,17 @@
     border-radius: 8px;
     background: rgb(255, 255, 255);
   }
+  /* legal practice area styles */
+.legal-practice-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    height: 80%;
+    border: 2px solid red;
+}
+
 
 
   /* responsive style  */
