@@ -69,6 +69,7 @@
     border: none;
     border-radius: 8px;
     padding: 12px;
+    cursor: pointer;
   }
   /* main section styles start here */
   .main-sect{
@@ -94,6 +95,7 @@
       rgba(17, 15, 15, 0.957) 100%);
   }
   .main-sect .title-with-desc{
+    margin: 30px auto;
     background-color: linear-gradient(
         0deg,
       rgb(0, 0, 0),
@@ -107,4 +109,19 @@
     line-height: 85px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 20px;
+  }
+  .search-opt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 30px auto;
+  }
+  .search-opt input{
+    width: 394px;
+    height: 50px;
+    padding-left:14px ;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
   }
