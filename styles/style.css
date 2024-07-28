@@ -206,21 +206,74 @@ h2.dark-head-line {
     text-align: center;
 }
 .client-review-main{
+    width: 100%;
+    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     margin: 0 auto;
-    background-image: url('../images/banner.png'), url('../images/Rectangle-7.png');
+    background-image: url('../images/banner.png'), url('../images/Rectangle-7.png'),
+    linear-gradient(
+        0deg,
+      rgb(0, 0, 0),
+      rgba(17, 15, 15, 0.957) 100%);
 }
 .slider-arrow {
     display: flex;
     justify-content: space-between;
     gap: 1051px;
     position: relative;
-    top: 16rem;
+    top: 12rem;
 }
-
+.client-image-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.image-client img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    top: -150px;
+}
+.about-client .name{
+    color: rgb(219, 214, 214);
+    position: relative;
+    top: -150px;
+}
+.about-client .uix{
+    color: rgb(206, 203, 203);
+    position: relative;
+    top: -150px;
+}
+.client-description{
+    color: rgb(215, 215, 215);
+    position: relative;
+    top: -140px;
+}
+.client-slider-position{
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.client-slider-position .client-span{
+    border: 1px solid gray;
+    background-color: rgb(123, 123, 123);
+    width: 36px;
+    height: 4px;
+    border-radius: 10px;
+    color: rgba(246, 247, 248, 0.795);
+}
+.client-slider-position .client-span:nth-child(2n){
+    color: white;
+}
   /* responsive style  */
   @media screen and (max-width:576px) {
     /* header section */
