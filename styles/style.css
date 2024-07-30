@@ -51,6 +51,12 @@
     padding: 10px;
     padding-left: 24px;
 }
+.border-lefts{
+    border-left: 1px solid rgb(207, 207, 207);
+}
+.border-bottoms{
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
   /* nav-bar styles here */
   .header{
     width: 1170px;
@@ -177,6 +183,10 @@
     align-items: center;
     margin: 30px auto;
 }
+.legal-practice-header  p {
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+}
 .legal-practice-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -226,6 +236,10 @@ h2.dark-head-line {
     gap: 20px;
     margin: 20px auto;
     text-align: center;
+}
+.client-review-header  p {
+    font-size: 1.5rem;
+    line-height: 2.1rem;
 }
 .client-review-main{
     width: 100%;
@@ -298,7 +312,7 @@ h2.dark-head-line {
 }
 /* friquently ask section start here */
 .friquently-ask-container{
-    width: 100%;
+    width: 1170px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -340,7 +354,85 @@ h2.dark-head-line {
     width: 100%;
     height: auto;
 }
-
+/* contact with us section start here */
+.ContactWithUs-container{
+    width: 1210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    gap: 20px;
+}
+.ContactWithUs-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.ContactWithUs-header  p {
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+}
+.ContactWithUs-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.ContactWithUs-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ContactWithUs-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    height: 210px;
+    border-radius: 0;
+    margin-right: 0;
+    padding: 30px 0;
+}
+.ContactWithUs-msg-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+.ContactWithUs-msg-box form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 530px;
+    gap: 50px;
+}
+.btn-with{
+    display: flex;
+    flex-direction: column;
+}
+.btn-with button{
+    width: 556px;
+}
+.out-line input{
+    /* outline: none; */
+    border: none;
+    padding: 12px;
+}
+.out-line textarea{
+    /* outline: none; */
+    border: none;
+    padding: 12px;
+}
   /* responsive style  */
   @media screen and (max-width:576px) {
     /* header section */
