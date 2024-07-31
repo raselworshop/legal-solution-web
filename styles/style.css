@@ -152,7 +152,6 @@
   }
   .search-opt{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
@@ -532,10 +531,13 @@ footer{
     padding: 14px 50px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
+} 
+.btnInput a{
+    text-decoration: none;
 }
 .btnInput i {
     position: relative;
-    left: -48px;
+    left: -36px;
     padding: 15px;
     border-radius: 5px;
     background: rgb(182, 140, 90);
