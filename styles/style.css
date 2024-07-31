@@ -434,6 +434,48 @@ h2.dark-head-line {
     padding: 12px;
 }
 /* footer section */
+footer{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 0px auto;
+}
+.footerSection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 50px auto;
+    gap: 30px;
+}
+.footers{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+}
+.footerOne p{
+    text-align: left;
+    padding: 20px 0;
+}
+.footerSecondLinks, .footerFourSubscribe, .footerThreeContact h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+.footerSecondLinks li, a{
+    text-decoration: none;
+    list-style: none;
+    margin-left: -10px;
+    color: rgb(110, 110, 110);
+}
+
+
+
   /* responsive style  */
   @media screen and (max-width:576px) {
     /* header section */
