@@ -459,19 +459,87 @@ footer{
     align-items: flex-start;
     margin: 20px;
 }
+
 .footerOne p{
     text-align: left;
     padding: 20px 0;
 }
-.footerSecondLinks, .footerFourSubscribe, .footerThreeContact h2{
-    font-size: 24px;
-    font-weight: 500;
+.footerSecondLinks {
+    margin-top: 40px;
 }
-.footerSecondLinks li, a{
+.footerSecondLinks li, a {
     text-decoration: none;
     list-style: none;
     margin-left: -10px;
     color: rgb(110, 110, 110);
+    line-height: 30px;
+}
+
+.footerThreeContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start ;
+}
+.footerThreeContact .footer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+.footerThreeContact h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.footerThreeContact span {
+    text-align: left;
+    padding: 10px 0;
+}
+.footerSecondLinks h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+.footerFourSubscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start ;
+    margin: 20px auto;
+}
+.footerFourSubscribe .footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: -2px;
+}
+.footerFourSubscribe .footer2 h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+.footerFourSubscribe p {
+    padding: 20px 0;
+    text-align: left;
+}
+.btnInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnInput input{
+    padding: 14px 50px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.btnInput i {
+    position: relative;
+    left: -48px;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgb(182, 140, 90);
+    cursor: pointer;
 }
 
 
